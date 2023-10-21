@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+main{
+    display: flex; 
+    /* how to center div */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#cont{
+    background-color: black;
+    width: 25%;
+}
+.row{
+    display: flex;
+}
+.left{
+    width: 75%;
+    display: flex;
+    background-color: black;
+    color: azure;
+}
+.right{
+    width: 25%;
+    display: flex;
+    background-color: gray;
+}
+.left input{
+    width: 100%;
+    height: 4rem;
+    font-size: 1.5rem;
+
+}
+.left button{
+    width: 33.33%;
+}
+.right button{
+    width: 100%;
+}
+button{
+    border: none;
+    /* height: 28px; */
+    background-color: transparent;
+    color: azure;
+    padding: 1rem ;
+    font-size: 1.5rem;
+    
+}
+#ac{
+    background-color: rgb(9, 106, 106);
+}
+
+.ac{
+    background-color: rgb(9, 106, 106);
+}
